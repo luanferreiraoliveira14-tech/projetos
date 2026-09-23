@@ -1,5 +1,5 @@
 import os
-os.system("cls")
+os.system("clear")
 
 id = int(input("Qual é a sua idade: "))
 
