@@ -1,7 +1,7 @@
 import random
 import os
 import time
-os.system('cls')
+os.system('clear')
 
 
 opçoes = ["arroz","feijao","cachorro","carro", "nuvem", "livro", "janela", "abajur","caderno", "teclado", "espelho", "montanha", "cachorro","dinheiro", "floresta", "elefante", "bicicleta", "chocolate"]
@@ -18,7 +18,7 @@ while True:
 
 
    while chan > 0:
-       os.system('cls')
+       os.system('clear')
        print(f"Você tem {chan} chances")
        print(letras)
        per = input("Seu palpite:  ").lower()
@@ -33,13 +33,13 @@ while True:
 
 
        if "_" not in letras or per == chave:
-           os.system('cls')
+           os.system('clear')
            print(f"A resposta era: {chave}" )
            print("Parabéns você ganhou :)")
            time.sleep(4)
            break
        elif chan <= 0:
-           os.system('cls')
+           os.system('clear')
            print(f"A resposta era: {chave}" )
            print ("você perdeu :(")
            time.sleep(4)
