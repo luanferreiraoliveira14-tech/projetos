@@ -1,5 +1,7 @@
 import string
 import time
+import os
+os.system('clear')
 
 text = "PLACEHOLDER... change"
 texvi = "" 
