@@ -25,7 +25,7 @@ letras = ["_","_","_","_","_"]
 while True:
     termo = list(random.choice(opçoes).upper())
     chances = random.randint(6,7)
-    os.system('cls')
+    os.system('clear')
 
     while chances > 0:
         chances -=1
@@ -42,14 +42,14 @@ while True:
                 letras[ind] = '🟥' 
             ind +=1
         if per == termo:
-            os.system('cls')
+            os.system('clear')
             print(letras)
             print(per)
             print("Parabéns você ganhou :)")
             time.sleep(4)
             break
         elif chances <= 0:
-            os.system('cls')
+            os.system('clear')
             print(letras)
             print(termo)
             print ("você perdeu :(")
