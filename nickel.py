@@ -1,7 +1,7 @@
 import os
 import random
 import time
-os.system('cls')
+os.system('clear')
 id = -1
 lis = ["🥰","😍","😁","🥺","😷","😺","🤠","😎","🧐","🤓","🎰"]
 for _ in lis:
@@ -22,7 +22,7 @@ while True:
    wt = 0.04
    din = din - 0.50
    for _ in range(random.randint(10,50)):
-      os.system('cls')
+      os.system('clear')
       s1 = random.randint(0,id)
       s2 = random.randint(0,id)
       s3 = random.randint(0,id)
